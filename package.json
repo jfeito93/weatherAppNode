@@ -1,0 +1,27 @@
+{
+  "name": "weatherAppNode",
+  "version": "1.0.0",
+  "description": "Weather App con Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "repair": "fuser -k 3000/tcp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfeito93/weatherAppNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfeito93/weatherAppNode/issues"
+  },
+  "homepage": "https://github.com/jfeito93/weatherAppNode#readme",
+  "dependencies": {
+    "nodemon": "^2.0.7",
+    "request": "^2.88.2",
+    "yargs": "^16.2.0"
+  }
+}
